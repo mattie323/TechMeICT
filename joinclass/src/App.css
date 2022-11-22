@@ -1,0 +1,44 @@
+.App {
+  background-color: #8D2C16;
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.sizefont {
+  font-size: 20px;
+}
+.sizefont1 {
+  font-size: 50px;
+}
+
+.App-header {
+  background-color: #8D2C16;
+  min-height: 100vh;
+}
+
+.App-link {
+  text-align: center;
+}
+.buttons1 {
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
